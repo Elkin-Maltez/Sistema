@@ -1,0 +1,160 @@
+/* Estilo de formulario */
+.entorno-pago{
+    margin-top: 10px;
+    margin-left: 18%;
+    max-width: 800px;
+    width: 80%;
+    padding: 30px;
+    box-shadow: 0 6px 20px gray;
+    background-color: #1f98f4;
+}
+
+.formulario-pago{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    font-family: 'Garamond', sans-serif;
+    font-weight: bold;
+}
+
+.formulario__label-pago{
+    display: block;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.formulario__grupo-input-pago{
+    position: relative;    
+}
+
+.formulario__input-pago{
+    width: 100%;
+    background: white;
+    border: 3px solid double;
+    border-radius: 3px;
+    height: 35px;
+    line-height: 45px;
+    transition: .3s ease all;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* .formulario__input-pago:invalid{
+    box-shadow: 0 0 5px 1px red;
+} */
+
+.formulario__input-pago:focus{
+    border: 3px medium;
+    outline: none;
+    box-shadow: 3px 0px 5px;
+}
+
+.formulario__grupo-btn-enviar-pago{
+    grid-column: span 2;
+}
+
+.formulario__grupo-btn-enviar-pago{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.formulario__btn-pago{
+    height: 45px;
+    line-height: 45px;
+    width: 30%;
+    background: #ec2821da;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .1s ease all;
+    font-family: 'Garamond', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.formulario__btn-pago:hover{
+    box-shadow: 3px 0px 30px black;
+}
+
+/* Media */
+@media screen and (max-width: 800px){
+    .formulario-pago{
+        grid-template-columns: 1fr;
+    }
+
+    .formulario__grupo-btn-enviar-pago{
+        grid-column: 1;
+    }
+
+    .formulario__btn-pago{
+        width: 100%;
+    }
+}
+
+/* Estilo de busqueda */
+.container-4-pago{
+    overflow: hidden;
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-left: 75%;
+}
+
+.container-4-pago input#search-pago{
+    width: 300px;
+    height: 60px;
+    font-size: 14pt;
+    background: #fff;
+    border: 3px solid;
+    border-radius: 3px;
+    height: 40px;
+    line-height: 45px;
+    padding: 0 10px 0 10px;
+    transition: 0.3s ease all;
+}
+
+.container-4-pago input#search-pago:focus{
+    border: 3px solid #1888ff;
+    outline: none;
+    box-shadow: 3px 0px 30px gray;
+}
+.container-4-pago button.icon-pago{
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  
+    border: none;
+    background: #1888ff;
+    height: 50px;
+    width: 50px;
+    color: black;
+    opacity: 0;
+    font-size: 15pt;
+  
+    -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+}
+
+.container-4-pago:hover button.icon-pago, .container-4-pago:active button.icon-pago, .container-4-pago:focus button.icon-pago{
+    outline: none;
+    opacity: 1;
+    margin-left: -50px;
+}
+
+/* Estilo de tabla */
+.tabla-pago{
+    margin-left: 10px;
+    margin-right: 10px;
+}

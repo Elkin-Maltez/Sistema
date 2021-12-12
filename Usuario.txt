@@ -1,0 +1,10 @@
+Usuario Administrador:
+
+Correo electronico: tvcableapolo11@gmail.com
+Contraseña: tvcableapolo11
+
+Usuario Cliente:
+
+Correo electronico: prueba01@gmail.com
+Contraseña: prueba01
+

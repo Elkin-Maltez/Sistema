@@ -1,0 +1,34 @@
+.Nosotros{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 80px;
+    color: black;
+}
+
+.Principal{
+    display: flex;
+}
+
+.Secundario{
+    margin: 50px;
+    background-color: #3b9be6e0;
+}
+
+.Secundario, .imagen1, .imagen2, .imagen3{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Secundario, .Textos{
+    font-size: 25px;
+    font-family: 'Garamond', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+}
+.Puntos{
+    font-family: 'Garamond', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
