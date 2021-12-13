@@ -1,6 +1,6 @@
 import React from 'react'
 import CardItems from './carditems';
-import './../../styles/inicio.css'
+import './../../styles/inicio.css';
 
 const Card = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './../styles/nosotros.css'
+import './../styles/nosotros.css';
 import icono1 from './../images/image-1.png';
 import icono2 from './../images/image-2.jpg';
 import icono3 from './../images/image-3.png';
